@@ -9,20 +9,28 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>  
     
     <!-- <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> -->
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <article class="container">
-   <nav>
-        <ul>
-            <li><a>Home</a></li>
-            <li><a>Music</a></li>
-            <li><a>Videos</a></li>
-            <li><a>About</a></li>
-            <li><a>Contact</a></li>
-            <li><a href="https://rossnevinmusic.bandcamp.com/releases" target="blank">Store</a></li>
+    
+    <nav class="navbar navbar-light bg-light navbar-expand-sm">
+        <ul class="navbar-nav mr-auto">
+            <li class="active nav-item mr-2"><a class="navlink" href="https://www.instagram.com/aangyanchen/">Insta</a></li>
+            <li class="active nav-item mr-2"><a class="navlink" href="https://soundcloud.com/rossnevin">SoundCloud</a></li>
+            <li class="active nav-item mr-2"><a class="navlink">youtube</a></li>
+            <li class="active nav-item mr-2"><a class="navlink">Spotfy</a></li>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="/music">Music</a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="/video">Video</a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="/contact">Contact</a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="https://rossnevinmusic.bandcamp.com/releases" target="blank">Store</a></li>
         </ul>
     </nav>
+    <article class="container mt-3">
     <!-- Home -->
     <div class="row">
         <div class="col-12">
@@ -37,13 +45,13 @@
     <!-- Music -->
     <section class="music">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 my-3 text-center">
                 <h2 class="text-uppercase h1">Music</h2>
             </div>
         </div>
         <!--4 songs - 1 album (Awake at Night)<br>6 singles-->
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 my-3">
                 <h3>Recents</h3>
             </div>
         </div>
@@ -125,41 +133,43 @@
     <!-- Videos -->
     <section class="videos">
         <div class="row">
-            <h2 class="text-uppercase h1">Videos</h2>
+            <div class="col-12 my-3 text-center">
+                <h2 class="text-uppercase h1">Videos</h2>
+            </div>
         </div>    
         <!--6 You tube videos-->
         
         <div class="row">    
             <div class="col-12 col-md-6">
-                <div>
+                <div class="iframe-container">
                     <p>Video 1</p>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/bRySRndes7Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div>
+                <div class="iframe-container">
                     <p>Video 2</p>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/tkY-lD-1GNY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         
             <div class="col-12 d-none d-md-block d-xl-none col-md-6 d-xl-block">
-                <div>
+                <div class="iframe-container">
                     <p>Video 3</p>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/kLtM4rim9go" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div>
+                <div class="iframe-container">
                     <p>Video 4</p>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/3q17Onb1m5o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
           
-            <div class="col-12 d-none d-md-block d-xl-none col-md-6 d-xl-block">
-                <div>
+            <div class="col-12 d-none d-md-none d-lg-block d-xl-none col-md-6 d-xl-block">
+                <div class="iframe-container">
                     <p>Video 5</p>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/6gUTF_Jd6JI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
                 </div>
             </div>
-            <div class="col-12 d-none d-md-block d-xl-none col-md-6 d-xl-block">    
-                <div>
+            <div class="col-12 d-none d-md-none d-lg-block d-xl-none col-md-6 d-xl-block">    
+                <div class="iframe-container">
                     <p>Video 6</p>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/5FTjA77Tv74" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
@@ -170,7 +180,7 @@
     <hr>
     <!-- About -->
     <div class="row">
-        <div class="col-12">
+        <div class="col-12 my-3 text-center">
             <section class="about">
                 <h2 class="text-uppercase h1">About</h2>
                 <blockquote class="blockquote">
@@ -183,7 +193,7 @@
     <hr>
     <!-- Contact -->
     <div class="row">
-        <div class="col-12">
+        <div class="col-12 my-3 text-center">
             <section class="contact">
                 <h2 class="text-uppercase h1">Contact</h2>
                 <p>Add Introductory Paragraph</p>
