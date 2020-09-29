@@ -13,21 +13,30 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
     <nav class="navbar navbar-light bg-light navbar-expand-sm">
-        <ul class="navbar-nav mr-auto ml-3">
+        <button class="navbar-todler mr-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="/music">Music</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="/video">Video</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="/contact">Contact</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="https://rossnevinmusic.bandcamp.com/releases" target="blank">Store</a></li>
+            </ul>
+        </div>
+        <div>
+         <ul class="navbar-nav ml-auto ml-3">
             <li class="active nav-item mr-3"><a class="navlink" href="https://www.instagram.com/aangyanchen/" target="blank"><i class="fab fa-instagram-square"></i></a></li>
             <li class="active nav-item mr-3"><a class="navlink" href="https://soundcloud.com/rossnevin" target="blank"><i class="fab fa-soundcloud"></i></a></li>
             <li class="active nav-item mr-3"><a class="navlink" href="" target="blank"><i class="fab fa-youtube"></i></a></li>
             <li class="active nav-item mr-3"><a class="navlink" href="" target="blank"><i class="fab fa-spotify"></i></a></li>
         </ul>
-        <ul class="navbar-nav">
-            <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-            <li class="nav-item mr-2"><a class="nav-link" href="/music">Music</a></li>
-            <li class="nav-item mr-2"><a class="nav-link" href="/video">Video</a></li>
-            <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
-            <li class="nav-item mr-2"><a class="nav-link" href="/contact">Contact</a></li>
-            <li class="nav-item mr-2"><a class="nav-link" href="https://rossnevinmusic.bandcamp.com/releases" target="blank">Store</a></li>
-        </ul>
+        </div>
+        
     </nav>
     <article class="container mt-3">
     <!-- Home -->
@@ -205,7 +214,10 @@
     </div>
     <!-- /. Contact -->
     </article>
-    <footer>
-    </footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
 </body>
 </html>
