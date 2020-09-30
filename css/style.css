@@ -1,33 +1,42 @@
 /* css got in youtube channel tipswithpunch */
 .iframe-container{
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%; 
-  height: 0;
-  margin-bottom: 5%;
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+    margin-bottom: 5%;
 }
 .iframe-container iframe{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 /* ./css got in youtube channel tipswithpunch */
 
 body{
- font-family: 'Overpass', sans-serif;
+    font-family: 'Overpass', sans-serif;
 }
-
+.my-happy-place { 
+    color:#ff5500;
+}
+.title {
+    margin-left: 3%;
+    margin-top: 7%;
+    
+   
+}
 .home-container{
-height: 100vh;
+    height: 100vh;
 /* css got from css-tricks.com */
-background: url("../images/Ross-Nevin.jpeg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: url("../images/ross-nevin.jpeg") no-repeat  top center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 /* ./css-tricks.com */
+    
 }
 .music-container{
     
