@@ -19,7 +19,7 @@ body{
     font-family: 'Overpass', sans-serif;
 }
 .my-happy-place { 
-    color:#ff5500;
+    color:#dd5410;
 }
 .title {
     margin-left: 3%;
@@ -35,9 +35,9 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-/* ./css-tricks.com */
-    
+/* ./css-tricks.com */   
 }
+
 .music-container{
     
 }
@@ -48,5 +48,33 @@ body{
     
 }
 .contact-container{
+    
+}
+/* block-dividers */ 
+.block-divider{
+    width: 50%;
+    height: 5px;
+    border: 0;
+    margin-top: 5%;
+    background-color: #dd5410;
+}
+.block-divider-short{
+    width: 35%;
+    height: 5px;
+    border: 0;
+    margin-top: 5%;
+    background-color: #dd5410;
+}
+.block-divider-shorter{
+    width: 20%;
+    height: 5px;
+    border: 0;
+    margin-top: 5%;
+    background-color: #dd5410;
+}
+/* ./block-dividers */ 
+.wrapper-container{
+    background-color: #d5d5d7;
+
     
 }
