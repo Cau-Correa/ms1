@@ -1,3 +1,64 @@
+body{
+    font-family: 'Overpass', sans-serif;
+}
+#title{
+    margin-top: 10%;
+    margin-left: 3%;
+}
+.my-happy-place{ 
+    color:#dd5410;
+    font-weight: bold;
+}
+
+.home-container{
+    height: 100vh;
+/* css got from css-tricks.com */
+    background: url("../images/ross-nevin.jpeg") no-repeat  top center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+/* ./css-tricks.com */   
+}
+.music-container{
+    background-color: #d5d5d7;
+}
+.videos-container{
+    background-color: #dfdfe1;
+}
+.about-container{
+    background-color: #eaeaeb;
+}
+.contact-container{
+    background-color: #f4f4f5;
+}
+.wrapp-container{
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.block-divider{
+    height: 5px;
+    border: 0;
+    margin-top: 0%;
+    background-color: #dd5410;
+}
+
+.block-divider-large{
+    width: 70%;
+}
+.block-divider-medium{
+    width: 50%;
+}
+.block-divider-small{
+    width: 30%;
+    background-color:#0a0a0a;
+}
+.block-divider-xsmall{
+    width: 10%;
+    background-color:#0a0a0a;
+}
 /* css got in youtube channel tipswithpunch */
 .iframe-container{
     position: relative;
@@ -15,99 +76,9 @@
 }
 /* ./css got in youtube channel tipswithpunch */
 
-body{
-    font-family: 'Overpass', sans-serif;
-}
-.my-happy-place { 
+.song-titles{
+    font-weight: bold;
+    font-size: large;
+    text-decoration: underline;
     color:#dd5410;
-}
-.title {
-    margin-left: 3%;
-    margin-top: 7%;
-    
-   
-}
-.home-container{
-    height: 100vh;
-/* css got from css-tricks.com */
-    background: url("../images/ross-nevin.jpeg") no-repeat  top center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-/* ./css-tricks.com */   
-}
-
-.music-container{
-    background-color: #d5d5d7;
-}
-.videos-container{
-    background-color: #bebebf;
-}
-.about-container{
-
-}
-.contact-container{
-    
-}
-/* block-dividers */ 
-.block-divider-large{
-    width: 70%;
-    height: 5px;
-    border: 0;
-    margin-top: 0;
-    background-color: #dd5410;
-}
-.block-divider{
-    width: 50%;
-    height: 5px;
-    border: 0;
-    margin-top: 0%;
-    background-color: #dd5410;
-}
-.block-divider-short{
-    width: 30%;
-    height: 5px;
-    border: 0;
-    margin-top: 0%;
-    background-color: #dd5410;
-}
-.block-divider-shorter{
-    width: 10%;
-    height: 5px;
-    border: 0;
-    margin-top: 0%;
-    background-color: #dd5410;
-}
-/* ./block-dividers */ 
-
-.music{
-    margin-right: 10%;
-    margin-left: 10%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-.videos{
-    margin-right: 10%;
-    margin-left: 10%;
-    padding-top: 50px;
-    padding-bottom: 50px; 
-    
-}
-#videos{
-    color:#0a0a0b;
-}
-.contact{
-    margin-right: 10%;
-    margin-left: 10%;
-    padding-top: 50px;
-    padding-bottom: 50px; 
-
-}
-.about{
-    margin-right: 10%;
-    margin-left: 10%;
-    padding-top: 50px;
-    padding-bottom: 50px; 
-
 }
