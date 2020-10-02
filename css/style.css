@@ -9,16 +9,15 @@ body{
     color:#dd5410;
     font-weight: bold;
 }
-
 .home-container{
     height: 100vh;
-/* css got from css-tricks.com */
+/* css from css-tricks.com */
     background: url("../images/ross-nevin.jpeg") no-repeat  top center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-/* ./css-tricks.com */   
+/* ./css from css-tricks.com */   
 }
 .music-container{
     background-color: #d5d5d7;
@@ -26,7 +25,6 @@ body{
 }
 .videos-container{
     background-color: #dfdfe1;
-    
 }
 .about-container{
     background-color: #eaeaeb;
@@ -46,7 +44,6 @@ body{
     margin-top: 0%;
     background-color: #dd5410;
 }
-
 .block-divider-large{
     width: 70%;
 }
@@ -60,8 +57,8 @@ body{
 .block-divider-xsmall{
     width: 10%;
     background-color:#0a0a0a;
-}
-/* css got in youtube channel tipswithpunch */
+}  
+/* css from youtube channel tipswithpunch */
 .iframe-container{
     position: relative;
     width: 100%;
@@ -75,11 +72,9 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
+/* ./css from youtube channel tipswithpunch */
 }
-/* ./css got in youtube channel tipswithpunch */
-
 .song-titles{
-    text-decoration: underline;
     color:#dd5410;
 }
 .bottom-sections{
