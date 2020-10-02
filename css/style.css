@@ -22,9 +22,11 @@ body{
 }
 .music-container{
     background-color: #d5d5d7;
+    height: 100vh;
 }
 .videos-container{
     background-color: #dfdfe1;
+    
 }
 .about-container{
     background-color: #eaeaeb;
