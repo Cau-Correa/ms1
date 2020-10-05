@@ -1,4 +1,4 @@
-# Milestone Project 1 - **Ross Nevin** personal/professional website
+# Milestone Project 1 - **Ross Nevin** professional website
 
 
 This website is a showcase of Ross Nevin. Irish singer, song-writter and music producer. 
@@ -25,12 +25,15 @@ In this section, you should go over the different parts of your project, and des
 
 
 ## Tecnologies Used
-1. [Git](https://git-scm.com/) was used for version controle by utilizing the Gitpod terminal to commit to Git and push it to GitHub. 
-2. [GitHub](https://github.com) used to store the project after been pushed from Git
+1. [Git](https://git-scm.com/) Was used for version controle by utilizing the Gitpod terminal to commit to Git and push it to GitHub. 
+2. [GitHub](https://github.com) Used to store the project after been pushed from Git.
+3. [Boostrap](https://getbootstrap.com/) The Bootstrap library was used throughout the project.
+4. [FontAwesome](https://fontawesome.com/) The project uses Font Awesome icons.
 
 ## Languages used
 * HTML 5
 * CSS 3
+* JavaScript
 ## Testing
 
 ## Deployment
