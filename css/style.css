@@ -4,9 +4,14 @@ body{
 #title{
     margin-top: 10%;
     margin-left: 3%;
+    color:#000000;
 }
-.my-happy-place{ 
+.bold-orange{ 
     color:#dd5410;
+    font-weight: bold;
+}
+.bold-black{ 
+    color:#000000;
     font-weight: bold;
 }
 .home-container{
@@ -19,17 +24,17 @@ body{
     background-size: cover;
 /* ./css from css-tricks.com */   
 }
-.music-container{
+.music-background{
     background-color: #d5d5d7;
     height: 100vh;
 }
-.videos-container{
+.videos-background{
     background-color: #dfdfe1;
 }
-.about-container{
+.about-background{
     background-color: #eaeaeb;
 }
-.contact-container{
+.contact-background{
     background-color: #f4f4f5;
 }
 .wrapp-container{
@@ -38,11 +43,17 @@ body{
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.block-divider{
+.block-divider-orange{
     height: 5px;
     border: 0;
     margin-top: 0%;
     background-color: #dd5410;
+}
+.block-divider-black{
+    height: 5px;
+    border: 0;
+    margin-top: 0%;
+    background-color: #000000;
 }
 .block-divider-large{
     width: 70%;
@@ -52,11 +63,9 @@ body{
 }
 .block-divider-small{
     width: 30%;
-    background-color:#0a0a0a;
 }
 .block-divider-xsmall{
     width: 10%;
-    background-color:#0a0a0a;
 }  
 /* css from youtube channel tipswithpunch */
 .iframe-container{
