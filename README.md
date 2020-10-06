@@ -29,11 +29,13 @@ In this section, you should go over the different parts of your project, and des
 2. [GitHub](https://github.com) Used to store the project after been pushed from Git.
 3. [Boostrap](https://getbootstrap.com/) The Bootstrap library was used throughout the project.
 4. [FontAwesome](https://fontawesome.com/) The project uses Font Awesome icons.
+5. [Google Fonts](https://fonts.google.com/) Google fonts was used to homogenize the project.
 
 ## Languages used
 * HTML 5
 * CSS 3
 * JavaScript
+
 ## Testing
 
 ## Deployment
@@ -41,6 +43,8 @@ In this section, you should go over the different parts of your project, and des
 ## Credits
 ### Content
 ### Media
+The photo used in the project belogs to Ross Nevin.
+
 ### Acknowledgements
 
 
