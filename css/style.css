@@ -1,6 +1,11 @@
 body{
     font-family: 'Overpass', sans-serif;
 }
+@media screen and (max-width: 600px) {
+  .nav-button {
+  visibility: visible;
+  }
+}
 #title{
     margin-top: 10%;
     padding-left: 3%;
@@ -24,9 +29,9 @@ body{
     background-size: cover;
 /* ./css from css-tricks.com */   
 }
+/* Sections background color */
 .music-background{
     background-color: #d5d5d7;
-
 }
 .videos-background{
     background-color: #dfdfe1;
@@ -37,12 +42,15 @@ body{
 .contact-background{
     background-color: #f4f4f5;
 }
+/* ./sections background color */
+
 .wrapp-container{
     margin-right: 10%;
     margin-left: 10%;
     padding-top: 50px;
     padding-bottom: 50px;
 }
+/* Block dividers */
 .block-divider-orange{
     height: 5px;
     border: 0;
@@ -66,7 +74,9 @@ body{
 }
 .block-divider-xsmall{
     width: 10%;
-}  
+} 
+/* Block dividers */
+
 /* css from youtube channel tipswithpunch */
 .iframe-container{
     position: relative;
@@ -93,12 +103,12 @@ body{
     font-size: large;
 }
 @media screen and (min-width: 601px) {
-  p.l-music { 
+  p#p-music { 
     font-size: 40px; 
   }
 }
 @media screen and (max-width: 600px) {
-  p.l-music {
+  p#p-music {
     font-size: 20px;
   }
 }
@@ -107,18 +117,12 @@ body{
   visibility: hidden;
   }
 }
-@media screen and (max-width: 600px) {
-  .nav-button {
-  visibility: visible;
-  }
-}
 
-width="600" height="450"
 
 @media screen and (min-width: 601px) {
   .map {
-  width: 800px;
-  height: 600px;
+  width: 500px;
+  height: 375px;
   }
 }
 @media screen and (max-width: 600px) {
