@@ -1,21 +1,29 @@
 body{
     font-family: 'Overpass', sans-serif;
 }
+/* Nav button */
 @media screen and (max-width: 600px) {
-  .nav-button {
+  #nav-button {
   visibility: visible;
   }
 }
+@media screen and (min-width: 601px) {
+  #nav-button {
+  visibility: hidden;
+  }
+}
+/* ./Nav button */
+
 #title{
     margin-top: 10%;
     padding-left: 3%;
     color:#000000;
 }
-.bold-orange{ 
+.orange-bold{ 
     color:#dd5410;
     font-weight: bold;
 }
-.bold-black{ 
+.black-bold{ 
     color:#000000;
     font-weight: bold;
 }
@@ -29,7 +37,14 @@ body{
     background-size: cover;
 /* ./css from css-tricks.com */   
 }
+.wrapp-container{
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 /* Sections background color */
+
 .music-background{
     background-color: #d5d5d7;
 }
@@ -44,11 +59,67 @@ body{
 }
 /* ./sections background color */
 
-.wrapp-container{
-    margin-right: 10%;
-    margin-left: 10%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+/* Music paragraph */
+@media screen and (min-width: 601px) {
+  p#p-music { 
+    font-size: 40px; 
+  }
+}
+@media screen and (max-width: 600px) {
+  p#p-music {
+    font-size: 20px;
+  }
+}
+/* ./Music paragraph */
+
+/* You Tube Videos
+css from youtube channel tipswithpunch */
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+    margin-bottom: 5%;
+}
+.iframe-container iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* ./ You Tube Videos
+css from youtube channel tipswithpunch */
+
+.song-titles{
+    color:#dd5410;
+}
+.bottom-sections{
+    margin-bottom: 5%;
+}
+.contact-paragraphs{
+    font-size: large;
+}
+/* Google Maps */
+@media screen and (min-width: 601px) {
+  #map {
+  width: 500px;
+  height: 375px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #map {
+  width: 250px;
+  height: 188px;
+  }
+}
+.map{
+    padding-bottom: 3%;
+}
+/* ./Google Maps */
+
+.contact{
+    padding-bottom: 3%;
 }
 /* Block dividers */
 .block-divider-orange{
@@ -76,58 +147,3 @@ body{
     width: 10%;
 } 
 /* Block dividers */
-
-/* css from youtube channel tipswithpunch */
-.iframe-container{
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%; 
-    height: 0;
-    margin-bottom: 5%;
-}
-.iframe-container iframe{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-/* ./css from youtube channel tipswithpunch */
-}
-.song-titles{
-    color:#dd5410;
-}
-.bottom-sections{
-    margin-bottom: 5%;
-}
-#enquires{
-    font-size: large;
-}
-@media screen and (min-width: 601px) {
-  p#p-music { 
-    font-size: 40px; 
-  }
-}
-@media screen and (max-width: 600px) {
-  p#p-music {
-    font-size: 20px;
-  }
-}
-@media screen and (min-width: 601px) {
-  .nav-button {
-  visibility: hidden;
-  }
-}
-
-
-@media screen and (min-width: 601px) {
-  .map {
-  width: 500px;
-  height: 375px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .map {
-  width: 250px;
-  height: 188px;
-  }
-}

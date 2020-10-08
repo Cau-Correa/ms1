@@ -14,11 +14,9 @@
 <body>
     <!--Navbar-->
     <nav class="navbar navbar-light bg-light navbar-expand-sm">
-        <!--<div class="d-none d-ms-block d-md-none">-->
-        <button class="nav-button navbar-todler mr-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="toggle navigation">
+        <button id="nav-button" class="navbar-todler mr-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        </div>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav font-weight-bold">
                 <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
@@ -49,7 +47,7 @@
             <div class="row">
                 <div class="col-12" id="title">
                     <h1 class="display-1">Ross Nevin</h1>
-                    <p class="display-4 bold-orange">My Happy<br>Place</p> 
+                    <p class="display-4 orange-bold">My Happy<br>Place</p> 
                 </div>
             </div>
         </div>
@@ -61,7 +59,7 @@
         <div class="wrapp-container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h2 class="text-uppercase display-4 bold-black" id="music">Music</h2>
+                    <h2 class="text-uppercase display-4 black-bold" id="music">Music</h2>
                 </div>
             </div>
             <div class="row">
@@ -136,11 +134,11 @@
     <!-- /. Music -->
     <!-- Videos -->
     <section class="videos-background">
-    <hr class="block-divider-orange block-divider-medium">
+        <hr class="block-divider-orange block-divider-medium">
         <div class="wrapp-container"> 
             <div class="row">
                 <div class="col-12 text-center bottom-sections">
-                    <h2 class="text-uppercase display-4 bold-black" id="videos">Videos</h2>
+                    <h2 class="text-uppercase display-4 black-bold" id="videos">Videos</h2>
                 </div>
             </div>    
             <div class="row">    
@@ -176,13 +174,12 @@
     <!-- /. Videos --> 
     <!-- About -->
     <section class="about-background">
-     <hr class="block-divider-black block-divider-small">
+        <hr class="block-divider-black block-divider-small">
         <div class="wrapp-container">
-
             <div class="row">
                 <div class="col-12 text-center">
                     <div class="bottom-sections">
-                        <h2 class="text-uppercase display-4 bold-orange" id="about">About</h2>
+                        <h2 class="text-uppercase display-4 orange-bold" id="about">About</h2>
                     </div>    
                     <blockquote class="blockquote">
                         <p>Ross Nevin is a versatile session musician and recording artist based in Dublin, Ireland. This talented 
@@ -200,15 +197,15 @@
     <!-- /. About -->
     <!-- Contact -->
     <section class="contact-background">
-    <hr class="block-divider-black block-divider-xsmall">
-        <div class="wrapp-container">
+        <hr class="block-divider-black block-divider-xsmall">
+        <div class="wrapp-container contact">
             <div class="row">
                 <div class="col-12 text-center">
                     <div class="bottom-sections">
-                        <h2 class="text-uppercase display-4 bold-orange" id="contact">Contact</h2>
+                        <h2 class="text-uppercase display-4 orange-bold" id="contact">Contact</h2>
                     </div>
                     <h3>Song-writer, Producer, Musician and Singer.</h3>
-                    <p id="enquires">Enquires to:</p> 
+                    <p class="contact-paragraphs">Enquires to:</p> 
                     <address>
                         <a href="mailto:ross@lostlane.ie"><i class="fas fa-envelope"></i> ross@lostlane.ie</a>
                     </address>
@@ -216,8 +213,9 @@
             </div>
         </div>
         <div class="container">
-        <div class="row">
+            <div class="row">
                 <div class="col align-self-center col-6 offset-3">
+                    <p class="contact-paragraphs">Sign-up for the News Letter:</p>
                     <form>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
@@ -239,8 +237,8 @@
         </div>
             <br>
             <div class="row text-center">
-                <div class="col">
-                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2382.020675720926!2d-6.26160758428101!3d53.342886082671725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670f14466fb595%3A0x349e519470c086e5!2sLost%20Lane!5e0!3m2!1sen!2sie!4v1602171579317!5m2!1sen!2sie" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>                
+                <div class="col map">
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2382.020675720926!2d-6.26160758428101!3d53.342886082671725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670f14466fb595%3A0x349e519470c086e5!2sLost%20Lane!5e0!3m2!1sen!2sie!4v1602171579317!5m2!1sen!2sie" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>                
                 </div>
             </div>
     </section>
