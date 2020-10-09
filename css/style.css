@@ -107,17 +107,14 @@ css from youtube channel tipswithpunch */
   }
 }
 @media screen and (max-width: 600px) {
-  #google-map {
+  #map {
   width: 250px;
   height: 188px;
   }
 }
-.map{
-    padding-bottom: 3%;
-}
 /* ./Google Maps */
 
-.contact{
+.paddings-contact{
     padding-bottom: 3%;
 }
 /* Block dividers */
