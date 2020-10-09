@@ -44,7 +44,6 @@ body{
     padding-bottom: 50px;
 }
 /* Sections background color */
-
 .music-background{
     background-color: #d5d5d7;
 }
@@ -108,7 +107,7 @@ css from youtube channel tipswithpunch */
   }
 }
 @media screen and (max-width: 600px) {
-  #map {
+  #google-map {
   width: 250px;
   height: 188px;
   }
