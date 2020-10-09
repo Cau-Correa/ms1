@@ -29,9 +29,8 @@ body{
 }
 .home-container{
     height: 100vh;
-    background-attachment: fixed;
 /* css from css-tricks.com */
-    background: url("../images/ross-nevin.jpeg") no-repeat  top center fixed; 
+    background: url("../images/ross-nevin.jpeg") no-repeat  top center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
