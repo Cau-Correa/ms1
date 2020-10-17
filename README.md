@@ -49,8 +49,13 @@ Footer, in the footer is the copyrights and social media icons, linking to Ross'
 ## Testing
 
 ## Validation
-The HTMl of this project went throug [W3C MArcup validation service](https://validator.w3.org/) having showed-up 25 errors all related with the Iframe code add from Sound Cloud, You Tube and Google Maps.
+The HTMl of this project went throug [W3C Marcup validation service](https://validator.w3.org/) having showed-up 6 errors all related to the Iframe code add from Sound Cloud.
 
+The same error appears on lines: 77, 87, 97, 107, 117, and 127.
+
+Error: Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead. 
+
+The CSS of this project went throug [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/), with no error found.
 
 ## Deployment
 The deployment was made in the GitHub pages.
