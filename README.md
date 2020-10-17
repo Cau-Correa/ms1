@@ -39,7 +39,7 @@ Footer, in the footer is the copyrights and social media icons, linking to Ross'
 4. [FontAwesome](https://fontawesome.com/) The project uses Font Awesome icons.
 5. [Google Fonts](https://fonts.google.com/) Google fonts was used to homogenize the project. The font imported to the style.css file was 'Overpass'.
 6. [Google Maps](https://www.google.com/maps) Google maps was used to show Dublin in the contact section.
-7. [jQuery](came with boostrap )
+7. [jQuery](came with boostrap ) ......
 
 ## Languages used
 * HTML 5
@@ -47,6 +47,9 @@ Footer, in the footer is the copyrights and social media icons, linking to Ross'
 * JavaScript
 
 ## Testing
+
+## Validation
+The HTMl of this project went throug [W3C MArcup validation service](https://validator.w3.org/) having showed-up 25 errors all related with the Iframe code add from Sound Cloud, You Tube and Google Maps.
 
 
 ## Deployment

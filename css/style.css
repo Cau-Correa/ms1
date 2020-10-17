@@ -12,7 +12,6 @@ body{
   visibility: hidden;
   }
 }
-/* ./Nav button */
 
 #title{
     margin-top: 10%;
@@ -56,7 +55,6 @@ body{
 .contact-background{
     background-color: #f4f4f5;
 }
-/* ./sections background color */
 
 /* Music paragraph */
 @media screen and (min-width: 601px) {
@@ -69,7 +67,6 @@ body{
     font-size: 20px;
   }
 }
-/* ./Music paragraph */
 
 /* You Tube Videos
 css from youtube channel tipswithpunch */
@@ -118,7 +115,6 @@ css from youtube channel tipswithpunch */
     border: 0;
 
 }
-/* ./Google Maps */
 
 .paddings-contact{
     padding-bottom: 3%;
@@ -148,4 +144,4 @@ css from youtube channel tipswithpunch */
 .block-divider-xsmall{
     width: 10%;
 } 
-/* Block dividers */
+
