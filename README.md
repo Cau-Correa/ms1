@@ -6,7 +6,7 @@
 This website is a showcase of Ross Nevin. Irish singer, musician, song-writter, and music producer. 
 Where all of those whom admire his work can have access to it and keep uptodate with his latest creations.
 
-**IMPORTANT** Add image with diferent divices
+![Screenshot](readme.images/RN-screenshot.png)
 
 ## UX
 
@@ -29,7 +29,7 @@ Home page, with Ross's picture in the background the user can easy access social
 Music section, it's where is found the latest musics, the user is able to listen them in the browser or has an option to play them on Sound Cloud.
 Video section, You Tube videos of Ross interacting with other musicians and bands. Also they can be watched in browser or on You Tube.
 About section, brief desccription of Ross Nevin.
-Contact section, the user there can have direct contact with him by e-mail, sign-Up for the news letter and with google maps, see where geographically he is.
+Contact section, the user there can have direct contact with him by e-mail, fill out a form to sign-Up for the news letter the form element does't have implemented backend server code to process it yet. and with google maps, see where geographically he is.
 Footer, in the footer is the copyrights and social media icons, linking to Ross's social media accounts.
 
 ## Tecnologies Used
@@ -39,7 +39,7 @@ Footer, in the footer is the copyrights and social media icons, linking to Ross'
 4. [FontAwesome](https://fontawesome.com/) The project uses Font Awesome icons.
 5. [Google Fonts](https://fonts.google.com/) Google fonts was used to homogenize the project. The font imported to the style.css file was 'Overpass'.
 6. [Google Maps](https://www.google.com/maps) Google maps was used to show Dublin in the contact section.
-7. [jQuery](came with boostrap ) ......
+7. [jQuery](https://jquery.com/) jQuery was used to make the navbar responsive and also used for the modal dialog .
 
 ## Languages used
 * HTML 5
@@ -49,11 +49,15 @@ Footer, in the footer is the copyrights and social media icons, linking to Ross'
 ## Testing
 
 ## Validation
+* [W3C HTML Validator](https://validator.w3.org/)
+
 The HTMl of this project went throug [W3C Marcup validation service](https://validator.w3.org/) having showed-up 6 errors all related to the Iframe code add from Sound Cloud.
 
 The same error appears on lines: 77, 87, 97, 107, 117, and 127.
 
 Error: Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead. 
+
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 The CSS of this project went throug [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/), with no error found.
 
@@ -62,12 +66,22 @@ The deployment was made in the GitHub pages.
 From my GitHub web page, I open the repository I want to deploy, in this case, “Cau-Correa/ms1”. Then at the top right of the page click on the 'Settings' link, and scroll down to the GitHub Pages section, I selected the master branch as source, click on save, and I was provided with the following message: Your site is published at https://cau-correa.github.io/ms1/
 
 ## Credits
-code to other pages
-the full-screen 
+
+### Code
+The CSS code for the full page background image in the Home Section came from [CSS-Tricks](https://css-tricks.com/perfect-full-page-background-image/)
+
+The CSS code for responsive embed a You Tube video in the HTML came for the You Tube Channel [Tipswithpunch](https://www.youtube.com/watch?v=9YffrCViTVk)
+
+Bootstrap4: Bootstrap Library used throughout the project.
+
 ### Content
+All content was written by the developer.
+
 ### Media
 The photo used in the project belogs to Ross Nevin.
 
 ### Acknowledgements
 
+My Mentor for continuous helpful feedback.
+Tutor support at Code Institute for their support.
 
