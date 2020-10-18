@@ -14,12 +14,22 @@ The aim of this project is to reach all people who love contemporary Irish music
 
 This webpage presents official information about Ross Nevin's career and music also provides secure access to the purchase of his music and direct contact to hire his work.
 
+### User Strories
+#### First time visitor goals:
+* As a First Time Visitor, I want to easily understand the main purpose of the site, also want to be able to easily navigate throughout the site to find contentand.
+* As a First Time Visitor, I want to know about the new singers/song-writters, so I can have new content to listen to.
+* As a First Time Visitor, I want want to locate Ross's social media links to be able to follow him.
 
-* As a fan of Ross Nevin's music, I want to purchase his album, so that I can listen to it.
-* As an Irish music lover, I want to know about the new singers/song-writters, so I can have new content to listen to.
-* As a fan of Ross Nevin's music, I want be uptodade with his latest muisic, so I can listen to it.
-* As a person workin in the enterteinment business, I want to have contact to a singer/song-writter, so I can hire him.
-* As a musician, I want to hear the music that is been made in ireland, so I can have a partnership or collaboration with him.
+
+
+#### Returning visitor goals:
+* As a Returning Visitor, I want to hear the music that is been made in ireland, so I can have a partnership or collaboration with him.
+* As a Returning Visitor, I want to have contact to a singer/song-writter, so I can hire him.
+
+#### Frequent user goals:
+* As a Frequent User, I can have access to the store page to purchase his album, so that I can listen to it.
+* As a Frequent User, I want be up-to-date with his latest muisic, so I can listen to it.
+* As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
 **IMPORTANT** dont forget to add wireframe
 
@@ -41,6 +51,30 @@ Footer, in the footer is the copyrights and social media icons, linking to Ross'
 6. [Google Maps](https://www.google.com/maps) Google maps was used to show Dublin in the contact section.
 7. [jQuery](https://jquery.com/) jQuery was used to make the navbar responsive and also used for the modal dialog .
 
+
+## Design
+
+* ### Colour Scheme
+
+The colours used are black, orange and shades of grey.
+
+* ### Typography
+
+The Overpass font is used throughout the whole website with Sans Serif as the fallback font. Besides been an attractive clean font, Overpass was appropriate because its similar to the fount "Interstate" used in the SoundCloud code imbeded in the Music section. 
+
+* ### Imagery
+
+Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+
+* ### Wireframes
+
+Home Page Wireframe - View
+
+Mobile Wireframe - View
+
+Contact Us Page Wireframe - View
+
+
 ## Languages used
 * HTML 5
 * CSS 3
@@ -48,7 +82,72 @@ Footer, in the footer is the copyrights and social media icons, linking to Ross'
 
 ## Testing
 
-## Validation
+### Testing User Stories from User Experience (UX) Section
+
+#### First Time Visitor Goals
+
+* As a First Time Visitor, I want to easily understand the main purpose of the site, also want to be able to easily navigate throughout the site to find contentand.
+
+1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
+2. The main points are made immediately with the hero image
+3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
+1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
+2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
+3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
+
+
+* As a Fist Time Visitor, I want to know about the new singers/song-writters, so I can have new content to listen to.
+
+* As a First Time Visitor, I want want to locate Ross's social media links to be able to follow him.
+
+1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
+2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
+3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
+
+#### Returning Visitor Goals
+
+* As a Returning Visitor, I want to hear the music that is been made in ireland, so I can have a partnership or collaboration with him.
+
+1. These are clearly shown in the Music Section.
+
+
+* As a Returning Visitor, I want to have contact to a singer/song-writter, so I can hire him.
+
+1. The navigation bar clearly highlights the "Contact Us" Page.
+2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
+3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
+4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
+5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
+
+
+#### Frequent User Goals
+
+* As a Frequent User, I can have access to the store page to purchase his album, so that I can listen to it.
+1. The user would already be comfortable with the website layout and can easily click the banner message.
+
+* As a Frequent User, I want be up-to-date with his latest muisic, so I can listen to it.
+1. The user would already be comfortable with the website layout and can easily click the banner message.
+
+3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+1. At the bottom of every page their is a footer which content is consistent throughout all pages.
+2. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
+3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
+
+### Further Testing
+
+-   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   A large amount of testing was done to ensure that all pages were linking correctly.
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+### Known Bugs
+
+-   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
+ -   A white gap can be seen to the right of the footer and navigation bar as a result.
+-   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+
+
+### Validation
 * [W3C HTML Validator](https://validator.w3.org/)
 
 The HTMl of this project went throug [W3C Marcup validation service](https://validator.w3.org/) having showed-up 6 errors all related to the Iframe code add from Sound Cloud.
@@ -60,6 +159,12 @@ Error: Bad value 100% for attribute width on element iframe: Expected a digit bu
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 The CSS of this project went throug [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/), with no error found.
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+
 
 ## Deployment
 The deployment was made in the GitHub pages.
