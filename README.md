@@ -3,25 +3,25 @@
 
 [View the live project here.](https://cau-correa.github.io/ms1/)
 
-This website is a showcase of Ross Nevin. Irish singer, musician, song-writter, and music producer. 
-Where all of those whom admire his work can have access to it and keep uptodate with his latest creations.
+This website is a showcase of Ross Nevin. Irish singer, musician, song-writter and music producer. 
+Where all of those who admire his work can have access to it and keep up to date with his latest creations.
 
-![Screenshot](readme.images/RN-screenshot.png)
+![Screenshot Ross's website](readme.images/RN-screenshot.png)
 
 ## UX
 
 The aim of this project is to reach all people who love contemporary Irish music. Regardless of age, social class or ethnicity. Those who alredy like Ross Nevin's work and also those who want to know more about him. 
 
-This webpage presents official information about Ross Nevin's career and music also provides secure access to the purchase of his music and direct contact to hire his work.
+This webpage presents official information about Ross Nevin's career and music. It also provides secure access to the purchase of his music and direct contact to hire him.
 
 
 ### User Strories
 #### First time visitor goals:
-* As a First Time Visitor, I want to know about the new singers/song-writters, so I can have new content to listen to.
+* As a First Time Visitor, I want to know about new singers/song-writters, so I can have new content to listen to.
 * As a First Time Visitor, I want want to locate Ross's social media links to be able to follow him.
 
 #### Returning visitor goals:
-* As a Returning Visitor, I want to hear the music that is been made in ireland, so I can have a partnership or collaboration with him.
+* As a Returning Visitor, I want to hear the music that is been made in Ireland, so I can have a partnership or collaboration with him.
 * As a Returning Visitor, I want to have contact to a singer/song-writter, so I can hire him.
 
 #### Frequent user goals:
@@ -33,15 +33,15 @@ This webpage presents official information about Ross Nevin's career and music a
 ## Features
 
 Home page, with Ross's picture in the background the user can easy access social media and other sections of the website, also a direct link to purchase his Album.
-Music section, it's where is found the latest musics, the user is able to listen them in the browser or has an option to play them on Sound Cloud.
+Music section, it's where to found the latest music, the user is able to listen them in the browser or has an option to play them on Sound Cloud.
 Video section, You Tube videos of Ross interacting with other musicians and bands. Also they can be watched in browser or on You Tube.
 About section, brief desccription of Ross Nevin.
-Contact section, the user there can have direct contact with him by e-mail, fill out a form to sign-Up for the news letter the form element does't have implemented backend server code to process it yet. and with google maps, see where geographically he is.
+Contact section, the user there can have direct contact with him by e-mail, fill out a form to sign-Up for the news letter the form element does't have implemented backend server code to process it yet. and with google maps, see where he is geographically.
 Footer, in the footer is the copyrights and social media icons, linking to Ross's social media accounts.
 
 ## Tecnologies Used
-1. [Git](https://git-scm.com/) Was used for version controle by utilizing the Gitpod terminal to commit to Git and push it to GitHub. 
-2. [GitHub](https://github.com) Used to store the project after been pushed from Git.
+1. [Git](https://git-scm.com/) Was used for version control by utilizing the Gitpod terminal to commit to Git and push it to GitHub. 
+2. [GitHub](https://github.com) Used to store the project after it has been pushed from Git.
 3. [Boostrap](https://getbootstrap.com/) The Bootstrap library was used throughout the project to assist with the responsiviness and styling of the website.
 4. [FontAwesome](https://fontawesome.com/) The project uses Font Awesome icons.
 5. [Google Fonts](https://fonts.google.com/) Google fonts was used to homogenize the project. The font imported to the style.css file was 'Overpass'.
@@ -61,19 +61,18 @@ The Overpass font is used throughout the whole website with Sans Serif as the fa
 
 * ### Design choices
 
-A redution of content according with screen size was applied.
+A reduction of content according with screen size was applied.
 On Large screens the user can have access to the full content and enjoy a full experience the website provides.
 
-But with redution of screen size the content is accordingly reduced to keep providing a good experience on the website without having a confusing and crowded screen.
-On small screen size just 2 videos are shown on Video sections and instead of 6 just 4 musics are shown on Muisc section.
+But with reduction of screen size the content is accordingly reduced to keep providing a good experience on the website without having a confusing and crowded screen.
+On small screen size just 2 videos are shown on Video sections and instead of 6 just 4 music pieces are shown on Muisc section.
 
-Also on small screen size the navigation bar looses the social media links and turns in a buttom with the menu links to the other sections.
+Also on small screen size the navigation bar loses the social media links and turns into a buttom with the menu links to the other sections.
 
 
-* ### Wireframes
+* ### Wireframes for large and Small screens.
 
-**IMPORTANT** dont forget to add wireframe of descktop and mobile
-
+<img src="readme.images/LargeScreen.jpg" width=300>         <img src="readme.images/SmallScreen.jpg" width=300>
 
 
 ## Languages used
@@ -82,6 +81,12 @@ Also on small screen size the navigation bar looses the social media links and t
 * JavaScript
 
 ## Testing
+
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+-   A large amount of testing was done to ensure that all pages were linking correctly.
+-   The Website was tested on Google Chrome, Fire fox, and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, ipad, iPhone8, iPhoneX, iphoneXs & iPhone11.
+-   A large amount of testing was done to ensure that all pages were linking correctly.
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -93,35 +98,27 @@ Also on small screen size the navigation bar looses the social media links and t
 
 ##### * As a First Time Visitor, I want want to locate Ross's social media links to be able to follow him.
 1. For mediun size screens up, the user can find links to the social media acconts on the top of the page at the right side of the navigation bar and scrolling down to the footer on the bottom of the page. 
-2. For divices with small screens the social media links can be found just in the footer on the bottom of the page.
+2. For divices with small screens the social media links can be found only in the footer on the bottom of the page.
 
 #### Returning Visitor Goals
-##### * As a Returning Visitor, I want to hear the music that is been made in ireland, so I can have a partnership or collaboration with him.
-1. The recent music are clearly shown in the Music Section.
-2. The Contact section is on the navigation bar with straight link to the section, also the user can scroll down to the bottom untill the Contact section, the user can contact Ross's by e-mail and also there is links to his social media accounts.
+##### * As a Returning Visitor, I want to hear the music that is being made in ireland, so I can have a partnership or collaboration with him.
+1. The recent music is clearly shown in the Music Section.
+2. The Contact section is on the navigation bar with straight link to the section, also the user can scroll down to the bottom untill the Contact section, the user can contact Ross by e-mail and also there are links to his social media accounts.
 
-##### * As a Returning Visitor, I want to have contact to a singer/song-writter, so I can hire him.
-1. In the navigation bar the user can go direct to the Contact section, then the user can contact Ross's by e-mail also throug his social media accounts, 
+##### * As a Returning Visitor, I want to have contact with a singer/song-writter, so I can hire him.
+1. In the navigation bar the user can go direct to the Contact section, then the user can contact Ross by e-mail also through his social media accounts, 
 in the navigation bar on the top for larger screens and on the bottom for all screen sizes.
 
 #### Frequent User Goals
 ##### * As a Frequent User, I can have access to the store page to purchase his album, so that I can listen to it.
-1. The user can easily find a link to the strore on top of the page in the navigation bar and click to it to be re-directed to another page on a new window.
+1. The user can easily find a link to the strore on top of the page in the navigation bar and click on it to be re-directed to another page on a new window.
 
 ##### * As a Frequent User, I want be up-to-date with his latest muisic, so I can listen to it.
 1. The user is already comfortable navigating the website and can easily find Ross's new music in the Music section.
 
 ##### * As a Frequent User, I want to sign up to the Newsletter so that I can receive email about Ross's music updates.
-1. At the bottom of the Contac section there is message inviting the user to sign-up to the News Letter, clicking on the button Sign-up the user can
+1. At the bottom of the Contact section there is message inviting the user to sign-up to the News Letter, by clicking on the button Sign-up the user can
  fill out a form and submit it clicking on the submit buttom. 
-
-
-### Further Testing
-
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.??????
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.?????
--   A large amount of testing was done to ensure that all pages were linking correctly.?????
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 
 ### Known Bugs
