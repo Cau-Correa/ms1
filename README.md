@@ -83,10 +83,8 @@ Also on small screen size the navigation bar loses the social media links and tu
 ## Testing
 
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
--   A large amount of testing was done to ensure that all pages were linking correctly.
 -   The Website was tested on Google Chrome, Fire fox, and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, ipad, iPhone8, iPhoneX, iphoneXs & iPhone11.
--   A large amount of testing was done to ensure that all pages were linking correctly.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, ipad, sansungS9, iPhone8, iPhoneX, iphoneXs & iPhone11.
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -119,14 +117,6 @@ in the navigation bar on the top for larger screens and on the bottom for all sc
 ##### * As a Frequent User, I want to sign up to the Newsletter so that I can receive email about Ross's music updates.
 1. At the bottom of the Contact section there is message inviting the user to sign-up to the News Letter, by clicking on the button Sign-up the user can
  fill out a form and submit it clicking on the submit buttom. 
-
-
-### Known Bugs
-
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
- -   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
-
 
 ### Validation
 
@@ -180,7 +170,7 @@ The photo used in the project belogs to Ross Nevin.
 
 ### Acknowledgements
 
-My Mentor for continuous helping and feedback.
+My Mentor for helping and feedback.
 Tutor support at Code Institute for their support.
 To the Slack Community for helping me with my silly questions.
 
