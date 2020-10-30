@@ -70,10 +70,9 @@ On small screen size just 2 videos are shown on Video sections and instead of 6 
 Also on small screen size the navigation bar loses the social media links and turns into a buttom with the menu links to the other sections.
 
 
-* ### Wireframes for large and Small screens.
+* ### Wireframe.
 
-<img src="readme.images/LargeScreen.jpg" width=300>         <img src="readme.images/SmallScreen.jpg" width=300>
-
+<img src="readme.images/Wireframe-ross.png">      
 
 ## Languages used
 * HTML 5
