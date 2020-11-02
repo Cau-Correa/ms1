@@ -33,11 +33,21 @@ This webpage presents official information about Ross Nevin's career and music. 
 ## Features
 
 Home page, with Ross's picture in the background the user can easy access social media and other sections of the website, also a direct link to purchase his Album.
+
 Music section, it's where to found the latest music, the user is able to listen them in the browser or has an option to play them on Sound Cloud.
+
 Video section, You Tube videos of Ross interacting with other musicians and bands. Also they can be watched in browser or on You Tube.
+
 About section, brief desccription of Ross Nevin.
+
 Contact section, the user there can have direct contact with him by e-mail, fill out a form to sign-Up for the news letter the form element does't have implemented backend server code to process it yet. and with google maps, see where he is geographically.
+
 Footer, in the footer is the copyrights and social media icons, linking to Ross's social media accounts.
+
+
+## Future features
+
+For the future is planed to add You Tube and Spotify pages to the social media icons, also make the sign-up form useful by implementing backend to it.
 
 ## Tecnologies Used
 1. [Git](https://git-scm.com/) Was used for version control by utilizing the Gitpod terminal to commit to Git and push it to GitHub. 
