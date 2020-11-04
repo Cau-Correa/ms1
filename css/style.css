@@ -1,32 +1,8 @@
-body{
+body {
     font-family: 'Overpass', sans-serif;
 }
-/* Nav button */
-@media screen and (max-width: 600px) {
-  #nav-button {
-  visibility: visible;
-  }
-}
-@media screen and (min-width: 601px) {
-  #nav-button {
-  visibility: hidden;
-  }
-}
 
-#title{
-    margin-top: 10%;
-    padding-left: 3%;
-    color:#000000;
-}
-.orange-bold{ 
-    color:#dd5410;
-    font-weight: bold;
-}
-.black-bold{ 
-    color:#000000;
-    font-weight: bold;
-}
-.home-container{
+.home-container {
     height: 100vh;
 /* css from css-tricks.com */
     background: url("../images/ross-nevin.jpeg") no-repeat  top center; 
@@ -36,67 +12,157 @@ body{
     background-size: cover;
 /* ./css from css-tricks.com */   
 }
-.wrapp-container{
+
+.wrapp-container {
     margin-right: 10%;
     margin-left: 10%;
     padding-top: 50px;
     padding-bottom: 50px;
 }
-/* Sections background color */
-.music-background{
-    background-color: #d5d5d7;
-}
-.videos-background{
-    background-color: #dfdfe1;
-}
-.about-background{
-    background-color: #eaeaeb;
-}
-.contact-background{
-    background-color: #f4f4f5;
+
+/*-----------------Nav button----------------- */
+
+.navbar-nav li a {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 0;
 }
 
-/* Music paragraph */
+
+@media screen and (max-width: 600px) {
+  #nav-button {
+  visibility: visible;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  #nav-button {
+  visibility: hidden;
+  }
+}
+
+/*-------------------Social------------------*/
+
+.social li a i { 
+    color: #dd5410;
+    width: 37px;
+    height: 37px;
+    padding: 8px 0;
+    border-radius: 50%;
+    font-size: 22px;
+    text-align: center;
+    background: #d5d5d7;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social li a i:hover {
+    background: #f4f4f5
+}
+
+/*-------------------Title-------------------*/
+
+#title {
+    margin-top: 10%;
+    padding-left: 5%;
+    color:#000000;
+}
+
+.title-paragraph { 
+    font-size: 50px;
+    color:#dd5410;
+    font-weight: bold;
+}
+
+.title-name { 
+    font-size:80px;
+    color:#000000;
+    font-weight: bold;
+}
+
+/*-----------------Music--------------- */
+
+.music-background {
+    background-color: #d5d5d7;
+}
+
 @media screen and (min-width: 601px) {
   p#p-music { 
     font-size: 40px; 
   }
 }
+
 @media screen and (max-width: 600px) {
   p#p-music {
     font-size: 20px;
   }
 }
 
-/* You Tube Videos
-css from youtube channel tipswithpunch */
-.iframe-container{
+.song-titles {
+    color:#dd5410;
+}
+
+/*-----------------Videos--------------- */
+
+.videos-background {
+    background-color: #dfdfe1;
+}
+
+/*css from youtube channel tipswithpunch */
+.iframe-container {
     position: relative;
     width: 100%;
     padding-bottom: 56.25%; 
     height: 0;
     margin-bottom: 5%;
 }
-.iframe-container iframe{
+
+.iframe-container iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
 }
-/* ./ You Tube Videos
-css from youtube channel tipswithpunch */
+/* ./css from youtube channel tipswithpunch */
 
-.song-titles{
-    color:#dd5410;
+/*-----------------About--------------- */
+
+.about-background {
+    background-color: #eaeaeb;
 }
-.bottom-sections{
-    margin-bottom: 5%;
+
+.blockquote p a {
+    text-decoration: none;
+    color: #dd5410;
 }
-.contact-paragraphs{
+
+.blockquote p a:hover {
+    color: #000000;
+}
+
+/*-----------------Contact--------------- */
+
+.contact-background {
+    background-color: #f4f4f5;
+}
+
+.contact-paragraphs {
     font-size: large;
 }
-/* Google Maps */
+
+.paddings-contact {
+    padding-bottom: 3%;
+}
+
+.bottom-sections {
+    margin-bottom: 5%;
+}
+
+/*-------------------Google Maps--------------------- */
+
 @media screen and (min-width: 601px) {
   #google-map {
   width: 500px;
@@ -109,39 +175,42 @@ css from youtube channel tipswithpunch */
   height: 188px;
   }
 }
-#map{
+
+#map {
     padding: 0;
     margin: 0;
     border: 0;
-
 }
 
-.paddings-contact{
-    padding-bottom: 3%;
-}
-/* Block dividers */
-.block-divider-orange{
+/*-----------------------Block dividers--------------------*/
+
+.block-divider-orange {
     height: 5px;
     border: 0;
     margin-top: 0%;
     background-color: #dd5410;
 }
-.block-divider-black{
+
+.block-divider-black {
     height: 5px;
     border: 0;
     margin-top: 0%;
     background-color: #000000;
 }
-.block-divider-large{
+
+.block-divider-large {
     width: 70%;
 }
-.block-divider-medium{
+
+.block-divider-medium {
     width: 50%;
 }
-.block-divider-small{
+
+.block-divider-small {
     width: 30%;
 }
-.block-divider-xsmall{
+
+.block-divider-xsmall {
     width: 10%;
 } 
 
