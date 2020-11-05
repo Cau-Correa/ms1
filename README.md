@@ -145,6 +145,11 @@ The CSS of this project went throug *W3C CSS Validation Service*, with no error 
 
 
 ## Deployment
+
+### Git Commands
+# credits for coding i got like W3schools
+
+
 ### GitHub Pages
 The deployment was deployed to the GitHub pages.
 From my GitHub web page, I open the repository I want to deploy, in this case, “Cau-Correa/ms1”. 
