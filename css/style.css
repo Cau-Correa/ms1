@@ -20,9 +20,20 @@ body {
     padding-bottom: 50px;
 }
 
-/*html {
+html {
   scroll-behavior: smooth;
-}*/
+} /*-----Unfortunately it doesn't work on all browsers-----*/
+
+/*-----------------Store----------------- */
+
+.nav-style{
+    color:#737070;
+}
+
+.nav-style:hover {
+  color: #403d3d;
+  text-decoration: none;
+}
 
 /*-----------------Nav button----------------- */
 

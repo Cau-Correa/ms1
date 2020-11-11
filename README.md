@@ -6,7 +6,7 @@
 This website is a showcase of Ross Nevin. Irish singer, musician, song-writter and music producer. 
 Where all of those who admire his work can have access to it and keep up to date with his latest creations.
 
-![Screenshot Ross's website](readme.images/RN-screenshot.png)
+![Screenshot ResponsiveRoss's website](readme.images/Responsive.png)
 
 ## UX
 
