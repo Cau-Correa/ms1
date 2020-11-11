@@ -147,7 +147,11 @@ The CSS of this project went throug *W3C CSS Validation Service*, with no error 
 ## Deployment
 
 ### Git Commands
-# credits for coding i got like W3schools
+After writing the code on Gitpod, I used the Git Commands:
+
+* git add and file or diretory name, adds files to the staging area for Git.
+* git commit -m "message", record the changes made to the files to a local repository.
+* git push, sends local commits to the remote repository on GitHub. 
 
 
 ### GitHub Pages
@@ -176,6 +180,8 @@ The CSS code for responsive embed a You Tube video in the HTML came for the You 
 
 Bootstrap4: Bootstrap Library used throughout the project.
 
+Also [W3schools](https://www.w3schools.com/default.asp).
+
 ### Content
 All content was written by the developer.
 
@@ -184,7 +190,7 @@ The photo used in the project belogs to Ross Nevin.
 
 ### Acknowledgements
 
-My Mentor for helping and feedback.
+My Mentor Reuben Ferrante for his help and feedback.
 Tutor support at Code Institute for their support.
 To the Slack Community for helping me with my silly questions.
 
