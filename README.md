@@ -191,6 +191,8 @@ All content was written by the developer.
 
 ### Media
 The photo used in the project belogs to Ross Nevin.
+Music played on this website was written and produced by Ross Nevin.
+Ross Nevin was part of the bands and musical groups in which he appears in the videos shown on this website.
 
 ### Acknowledgements
 
