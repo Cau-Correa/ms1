@@ -34,9 +34,9 @@ This webpage presents official information about Ross Nevin's career and music. 
 
 Home page, with Ross's picture in the background the user can easy access social media and other sections of the website, also a direct link to purchase his Album.
 
-Music section, it's where to found the latest music, the user is able to listen them in the browser or has an option to play them on Sound Cloud.
+Music section, it's where to found the latest music, the user is able to listen them in the browser or has an option to play them on Sound Cloud. I embeded Sound Cloud code in order to presente his music.
 
-Video section, You Tube videos of Ross interacting with other musicians and bands. Also they can be watched in browser or on You Tube.
+Video section, You Tube videos of Ross interacting with other musicians and bands. Also they can be watched in browser or on You Tube. I embeded You Tube code in order to present his videos.
 
 About section, brief desccription of Ross Nevin.
 
@@ -174,13 +174,17 @@ You find step by step to how to clone a repository from GitHub to your computer 
 ## Credits
 
 ### Code
+It was used code from [You Tube](https://www.youtube.com/) embeded in the Videos section. 
+
+It was used code from [Sound Cloud](https://soundcloud.com/) embeded in the Videos section. 
+
 The CSS code for the full page background image in the Home Section came from [CSS-Tricks](https://css-tricks.com/perfect-full-page-background-image/)
 
 The CSS code for responsive embed a You Tube video in the HTML came for the You Tube Channel [Tipswithpunch](https://www.youtube.com/watch?v=9YffrCViTVk)
 
 Bootstrap4: Bootstrap Library used throughout the project.
 
-Also [W3schools](https://www.w3schools.com/default.asp).
+The code for back to top buttom was from [W3schools](https://www.w3schools.com/default.asp).
 
 ### Content
 All content was written by the developer.
