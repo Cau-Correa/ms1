@@ -6,7 +6,7 @@
 This website is a showcase of Ross Nevin. Irish singer, musician, song-writter and music producer. 
 Where all of those who admire his work can have access to it and keep up to date with his latest creations.
 
-![Screenshot ResponsiveRoss's website](readme.images/Responsive.png)
+![Screenshot Responsive Ross's website](readme.images/Responsive.png)
 
 ## UX
 
@@ -82,7 +82,9 @@ Also on small screen size the navigation bar loses the social media links and tu
 
 * ### Wireframe.
 
-<img src="readme.images/Wireframe-ross.png">      
+<img src="readme.images/Wireframe-ross.png">  
+
+![mobile wireframe](readme.images/wireframe-mobile.png)
 
 ## Languages used
 * HTML 5
@@ -191,12 +193,36 @@ All content was written by the developer.
 
 ### Media
 The photo used in the project belogs to Ross Nevin.
+
 Music played on this website was written and produced by Ross Nevin.
+
+##### You Tube videos provided by:
 Ross Nevin was part of the bands and musical groups in which he appears in the videos shown on this website.
+
+Video: LAOISE - Halfway (Live at the Ruby Sessions) provided by [
+Ruby Sessions TV](https://www.youtube.com/channel/UC5HskCVUBaLF9Y-R6KYq8eA)
+
+Video: The Cazettes - 'At Last' (Etta James Cover) provided by [
+The Cazettes](https://www.youtube.com/channel/UCk1zqfrLeSZd9sVN1K4Gi4Q)
+
+Video: Paul Gordon performing 'Wander Lust' at the BIMM Dublin End of Term Gig, May 2016 provided by [BIMM](https://www.youtube.com/channel/UCmA64TnsaDBwd11EcOZKkCQ)
+
+Video: Helen Holligan - Drifting (Live At Straffan Antiques) provided by [
+Helen Holligan Music](https://www.youtube.com/channel/UC1L4ypXj77aRaEEvj2zHvPw)
+
+Video: Monsoon Season - Day Dreaming (Live At Straffan Antiques) provided by [
+Helen Holligan Music](https://www.youtube.com/channel/UC1L4ypXj77aRaEEvj2zHvPw)
+
+Video: The Cazettes - 'Let's Stay Together' (Al Green Cover)(Etta James Cover) provided by [
+The Cazettes](https://www.youtube.com/channel/UCk1zqfrLeSZd9sVN1K4Gi4Q)
+
+
 
 ### Acknowledgements
 
 My Mentor Reuben Ferrante for his help and feedback.
+
 Tutor support at Code Institute for their support.
+
 To the Slack Community for helping me with my silly questions.
 
