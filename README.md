@@ -82,9 +82,9 @@ Also on small screen size the navigation bar loses the social media links and tu
 
 * ### Wireframe.
 
-<img src="readme.images/Wireframe-ross.png">  
-
-![mobile wireframe](readme.images/wireframe-mobile.png)
+![mobile wireframe](readme.images/mobile-wireframe.png)
+![tablet wireframe](readme.images/tablet-wireframe.png)
+![desktop wireframe](readme.images/desktop-wireframe.png)
 
 ## Languages used
 * HTML 5
