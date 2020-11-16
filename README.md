@@ -129,7 +129,7 @@ in the navigation bar on the top for larger screens and on the bottom for all sc
 1. At the bottom of the Contact section there is message inviting the user to sign-up to the News Letter, by clicking on the button Sign-up the user can
  fill out a form and submit it clicking on the submit buttom. 
 
-### Validation
+## Validation
 
 To ensure there were no syntax errors in the project, the [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator Services](https://jigsaw.w3.org/css-validator/) were used to validate every page of the project.
 
@@ -144,6 +144,16 @@ Error: Bad value 100% for attribute width on element iframe: Expected a digit bu
 * W3C CSS Validator
 
 The CSS of this project went throug *W3C CSS Validation Service*, with no error found.
+
+* Lighthouse Google Chrome Tools 
+
+|    |Mobile |Desktop |
+|--- |--- |--- |
+|Performance|69|84|
+Accessibility|92|92|
+Best Practices|86|79|
+SEO|100|100|
+
 
 
 ## Deployment
