@@ -118,6 +118,9 @@ html {
     color:#dd5410;
 }
 
+.music-wrapper iframe {
+  width: 100%;
+}
 /*-----------------Videos--------------- */
 
 .videos-background {
