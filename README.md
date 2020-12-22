@@ -1,7 +1,7 @@
 # Milestone Project 1 - **Ross Nevin** professional website
 
 
-[View the live project here.](https://cau-correa.github.io/ms1/)
+[View the live project here.](https://cau-correa.github.io/ross-nevin-music-ms1)
 
 This website is a showcase of Ross Nevin. Irish singer, musician, song-writer, and music producer. 
 Where all of those who admire his work can have access to it and keep up to date with his latest creations.
@@ -103,16 +103,24 @@ Also on small screen size the navigation bar loses the social media links and tu
 ##### * As a First Time Visitor, I want to know about the new singers/song-writters, so I can have new content to listen to.
 1. In the Home section the user sees the name and picture of Ross Nevin, scrolling down the user will have access to music and videos, also a description of Ross's work in the About Section.
 2. The user can listen to the music in the browser or have a choice to play it on the SoundCloud page.
+
+![Screenshot UX Listen to the Music](readme.images/ux-music-screenshot.png)
+
 3. The user can see Ross as a musician in the Video section. It's possible to watch in the browser or on YouTube, by clicking on the video's name.
 
 ##### * As a First Time Visitor, I want to locate Ross's social media links to be able to follow him.
 1. For medium size screens up, the user can find links to the social media accounts on the top of the page at the right side of the navigation bar and scrolling down to the footer on the bottom of the page. 
+
+![Screenshot UX Social Media](readme.images/ux-social-screenshot.png)
+
 2. For devices with small screens the social media links can be found only in the footer on the bottom of the page.
 
 #### Returning Visitor Goals
 ##### * As a Returning Visitor, I want to hear the music that is being made in ireland, so I can have a partnership or collaboration with him.
 1. The recent music is clearly shown in the Music Section.
 2. The Contact section is on the navigation bar with a straight link to the section, also the user can scroll down to the bottom until the Contact section, the user can contact Ross by e-mail and also there are links to his social media accounts.
+
+![Screenshot Contact](readme.images/ux-contact-screenshot.png)
 
 ##### * As a Returning Visitor, I want to have contact with a singer/song-writter, so I can hire him.
 1. In the navigation bar the user can go direct to the Contact section, then the user can contact Ross by e-mail also through his social media accounts, 
@@ -129,17 +137,19 @@ in the navigation bar on the top for larger screens and on the bottom for all sc
 1. At the bottom of the Contact section there is message inviting the user to sign-up to the newsletter, by clicking on the button Sign-up the user can
  fill out a form and submit it clicking on the submit button. 
 
+![Screenshot Newsletter](readme.images/ux-newsletter-screenshot.png)
+
+## Fixed Bugs
+
+At first the project didn't pass on the W3C Markup Validator shown-up 6 errors all related to the iframe code add from SoundCloud. The inline css styling was removed from the index.html file and correctly placed in the style.css file.
+
 ## Validation
 
 To ensure there were no syntax errors in the project, the [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator Services](https://jigsaw.w3.org/css-validator/) were used to validate every page of the project.
 
 * W3C HTML Validator
 
-The HTMl of this project went through *W3C Markup validation service* having shown-up 6 errors all related to the Iframe code add from SoundCloud.
-
-The same error appears on lines: 77, 87, 97, 107, 117, and 127.
-
-Error: Bad value 100% for attribute width on element iframe: Expected a digit but saw % instead. 
+The HTMl of this project went through *W3C Markup validation service* With no errors or warnings to show.
 
 * W3C CSS Validator
 
