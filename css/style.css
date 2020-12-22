@@ -119,8 +119,11 @@ html {
 }
 
 .music-wrapper iframe {
+  position: relative;  
   width: 100%;
+  height: 80px;
 }
+
 /*-----------------Videos--------------- */
 
 .videos-background {
